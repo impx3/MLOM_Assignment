@@ -1,9 +1,8 @@
-**Student Group Analysis & Competition**
+**Student Performance Prediction Using Deep Learning**
 
-Developed a Python-based system to analyze student group memberships and competition participation using set operations, inverted indexing, and Natural Language Processing (NLP). The project involved:
+Built a classification model using TensorFlow to predict student performance levels (Low, Medium, High) based on demographic, academic, and behavioral features. This project involved:
 
-Identifying common students across multiple groups while applying exclusion rules.
-Combining student lists to form a new group.
-Implementing an inverted index to determine student participation in competitions.
-Using POS tagging (NLTK) to extract proper nouns (NNP) from competition descriptions and identify missing participants.
-This project strengthened my skills in file handling, data processing, NLP, and set operations in Python.
+Data preprocessing: Handling missing values, encoding categorical data, and scaling numerical features.
+Deep learning model design: Experimented with different architectures, activation functions, and dropout layers for optimization.
+Training & evaluation: Implemented early stopping, monitored accuracy/loss, and evaluated performance using precision, recall, and F1-score.
+Hyperparameter tuning: Optimized learning rate, batch size, and other parameters for better accuracy.
